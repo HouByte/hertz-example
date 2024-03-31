@@ -2,7 +2,10 @@ module hertz-example
 
 go 1.19
 
-require github.com/cloudwego/hertz v0.8.1
+require (
+	github.com/cloudwego/hertz v0.8.1
+	google.golang.org/protobuf v1.27.1
+)
 
 require (
 	github.com/bytedance/go-tagexpr/v2 v2.9.2 // indirect
@@ -22,5 +25,4 @@ require (
 	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect
 	golang.org/x/arch v0.0.0-20210923205945-b76863e36670 // indirect
 	golang.org/x/sys v0.0.0-20220412211240-33da011f77ad // indirect
-	google.golang.org/protobuf v1.27.1 // indirect
 )
